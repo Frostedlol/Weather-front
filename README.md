@@ -1,12 +1,7 @@
 
-<h3 align="center">WeatherApp</h3>
+<h1 align="center">WeatherApp</h1>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="[https://github.com/Frostedlol/repo_name](https://github.com/Frostedlol/Weather-front/)"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://youtu.be/qjSgDSWT5j0">View Demo</a>
     &middot;
     <a href="https://github.com/Frostedlol/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
@@ -25,18 +20,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+This project is a weather web application built using React.js for the frontend. It fetches real-time weather data using the OpenWeatherMap API with a free API key. The application displays weather information such as temperature, conditions, and forecasts directly on the website in an intuitive and responsive interface. There is video link for the software in the "View Demo".
 
 ### Built With
 
-* [![React][React.js]][React-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<p>Frontend: React.js</p>
+<p>Backend: Python</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -45,8 +34,6 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -54,47 +41,28 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Get a free API Key at https://openweathermap.org/
+2. Clone the repo (frontend)
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Frostedlol/Weather-front.git
    ```
-3. Install NPM packages
+3. Clone the repo (backend)
+   ```sh
+   git clone https://github.com/Frostedlol/Weather-back.git
+   ```
+4. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+5. Check backend Readme file for backend tutorial.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+There is 3 different themes added to this software: morning, noon, night. Morning is between 04:00-12:00, noon is 12:00-18:00 and night is between 18:00-04:00  
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/d5ea53c5-4b20-44c9-a545-f0162fe17840" width="32%" />
+  <img src="https://github.com/user-attachments/assets/492e8d1c-df64-4bdd-8717-9537d336a64b" width="32%" />
+  <img src="https://github.com/user-attachments/assets/42610b5f-0e49-45dc-b7d0-b05f3ce30c5f" width="32%" />
+</p>
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
