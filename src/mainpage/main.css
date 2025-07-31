@@ -1,0 +1,64 @@
+.App {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 60%;
+  margin: 0 20%;
+  z-index: 1; 
+  overflow: scroll;
+}
+
+
+.main-content.morning{
+  background: #3a5b7e;
+}
+
+.main-content.noon{
+  background: linear-gradient(to bottom, #0e4d92, #20304e);
+}
+
+.main-content.night{
+  background: linear-gradient(to bottom, #101a2b, #20304e);
+}
+.main-page{
+  margin-top: 5%;
+  color: white;
+}
+
+.weather {
+  margin-top: 2%;
+
+}
+.main-page {
+  margin-top: 1vw;
+  display: flex; 
+  flex-direction: row; 
+  height: 50vh; 
+  gap: 10vw;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+

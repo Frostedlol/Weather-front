@@ -1,0 +1,52 @@
+.weather_now{
+    height: 100%; 
+    margin-top: 2vw; 
+    color: white;
+}
+
+.weather {
+    margin-top: 2%;
+  }
+  .todays_weather {
+    margin-top: 1vw;
+    display: flex; 
+    flex-direction: row; 
+    height: 30vh; 
+    gap: 20px;
+    margin-bottom: 1%;
+
+  }
+  
+  .weather_info {
+    flex: 1; 
+  }
+  
+  .daily_data {
+    flex: 1; 
+  }
+
+  .graph-text{
+    color: white;
+    font-size: 20px;
+    margin-top: 1vw;
+    margin-left: 1vw;
+  }
+  .graph-text:hover {
+    fill: rgb(76, 76, 77); /* Change text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+  }
+  .mapped-cities {
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .basic-info {
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .spinner-container{
+    height: 100vh;
+  }
