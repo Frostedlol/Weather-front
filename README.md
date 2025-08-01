@@ -22,6 +22,8 @@
 ## About The Project
 This project is a weather web application built using React.js for the frontend. It fetches real-time weather data using the OpenWeatherMap API with a free API key. The application displays weather information such as temperature, conditions, and forecasts directly on the website in an intuitive and responsive interface. There is video link for the software in the "View Demo".
 
+## Backend: https://github.com/Frostedlol/Weather-back
+
 ### Built With
 
 <p>Frontend: React.js</p>
