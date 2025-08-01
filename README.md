@@ -44,13 +44,9 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 1. Get a free API Key at https://openweathermap.org/
-2. Clone the repo (frontend)
+2. Clone the repo
    ```sh
    git clone https://github.com/Frostedlol/Weather-front.git
-   ```
-3. Clone the repo (backend)
-   ```sh
-   git clone https://github.com/Frostedlol/Weather-back.git
    ```
 4. Install NPM packages
    ```sh
